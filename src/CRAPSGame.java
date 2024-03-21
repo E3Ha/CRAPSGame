@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class CRAPSGame {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         Random rand = new Random();
@@ -28,11 +28,18 @@ public class Main {
                         System.out.println("You Win");
                         done = true;
                     }
+                    //Otherwise they need to re-roll
+                    else{
+                        System.out.println("Re-Roll");
+                        done = false;
+                    }
+                    System.out.println("");
                 }
                 while (done == false);
             }
 
             cont = SafeInput.getYNConfirm(scan, "Continue?");
+            System.out.println("");
         }
         while (cont == false);
 
@@ -70,6 +77,7 @@ public class Main {
             default:
                 point = diceSum;
                 System.out.println("The Sum is now the Point");
+                System.out.println("");
         }
 
         return point;
