@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23cad554-4ec0-4cc4-8b26-375481d9c2d6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CRAPSGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CRAPSGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CRAPSGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +62,19 @@
       <option name="project" value="LOCAL" />
       <updated>1710957875596</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="3/21/2024 1:45">
+      <created>1711043135596</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711043135596</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="3/20/2024 2:05" />
-    <option name="LAST_COMMIT_MESSAGE" value="3/20/2024 2:05" />
+    <MESSAGE value="3/21/2024 1:45" />
+    <option name="LAST_COMMIT_MESSAGE" value="3/21/2024 1:45" />
   </component>
 </project>

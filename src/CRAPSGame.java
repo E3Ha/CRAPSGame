@@ -37,7 +37,7 @@ public class CRAPSGame {
                 }
                 while (done == false);
             }
-
+            //Checking if user wants to continue game
             cont = SafeInput.getYNConfirm(scan, "Continue?");
             System.out.println("");
         }
@@ -45,11 +45,10 @@ public class CRAPSGame {
 
 
 
-
-
     }
     //Method for rolling dice
     public static int RollDice(Random rand){
+        //Obtain individual die values
         int die1 = rand.nextInt(6) + 1;
         System.out.println("Die1: " + die1);
         int die2 = rand.nextInt(6) + 1;
@@ -63,25 +62,25 @@ public class CRAPSGame {
     //Method for rolling for point
     public static int Points(int diceSum){
         int point = 0;
-
+        //checking for whether point needs to happen
         switch (diceSum){
+            //User loses if sum = 2 || 3 || 12
             case 2:
             case 3:
             case 12:
                 System.out.println("Craps, You Lose");
                 break;
+            //User wins if sum = 7 || 11
             case 7:
             case 11:
                 System.out.println("Natural, You Win");
                 break;
+            //All other possible values mean point condition occurs
             default:
                 point = diceSum;
                 System.out.println("The Sum is now the Point");
                 System.out.println("");
         }
-
         return point;
     }
-
-
 }
